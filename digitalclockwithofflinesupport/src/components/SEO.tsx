@@ -7,6 +7,19 @@ interface SEOProps {
     url: string;
 }
 
+
+/**
+ * SEO component that injects SEO-related meta tags into the <head> of the document.
+ *
+ * @param {Object} props - Component properties.
+ * @param {string} props.title - The title of the webpage.
+ * @param {string} props.description - The description of the webpage.
+ * @param {string} props.url - The URL of the webpage.
+ *
+ * This component includes standard meta tags, Open Graph tags for social media,
+ * Twitter card tags, and links for PWA support.
+ */
+
 export default function SEO({ title, description, url }: SEOProps) {
     return (
         <Head>
