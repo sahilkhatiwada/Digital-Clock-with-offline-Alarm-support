@@ -1,0 +1,22 @@
+{
+    "name": "Digital Clock & Alarm",
+    "short_name": "ClockAlarm",
+    "description": "A smart digital clock with alarm notifications, snooze, and vibration.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "/icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
