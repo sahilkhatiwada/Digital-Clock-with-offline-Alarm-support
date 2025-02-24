@@ -1,3 +1,4 @@
+"use client";
 import { useEffect } from "react";
 
 /**
@@ -24,5 +25,10 @@ export default function RootLayout({
         });
     }
   }, []);
-  return <>{children}</>;
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  )
+    
 }
